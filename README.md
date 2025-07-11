@@ -1,6 +1,6 @@
 
 ````markdown
-# Comparative Analysis of LIME and SHAP for Explaining Sentiment Classification Models on Text Data
+## Comparative Analysis of LIME and SHAP for Explaining Sentiment Classification Models on Text Data
 
 This project presents a comparative study between two widely used model-agnostic explainability techniques: **LIME (Local Interpretable Model-agnostic Explanations)** and **SHAP (SHapley Additive exPlanations)**. The evaluation is conducted using a sentiment classification model applied to simulated tweets labeled as positive or negative.
 

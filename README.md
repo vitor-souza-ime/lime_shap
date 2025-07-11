@@ -1,5 +1,3 @@
-
-````markdown
 ## Comparative Analysis of LIME and SHAP for Explaining Sentiment Classification Models on Text Data
 
 This project presents a comparative study between two widely used model-agnostic explainability techniques: **LIME (Local Interpretable Model-agnostic Explanations)** and **SHAP (SHapley Additive exPlanations)**. The evaluation is conducted using a sentiment classification model applied to simulated tweets labeled as positive or negative.
@@ -8,7 +6,7 @@ This project presents a comparative study between two widely used model-agnostic
 
 - `main01.py`: Complete Python script that performs data simulation, model training with XGBoost, local explanation using LIME and SHAP, fidelity and execution time measurement, and graphical visualization of results.
 
-## 🧪 Features
+## 🧪 **Features**
 
 - Simulates 100 tweets with binary sentiment labels (positive and negative).
 - Trains a classifier using the XGBoost algorithm.
@@ -18,7 +16,25 @@ This project presents a comparative study between two widely used model-agnostic
   - **Local Fidelity (MSE)**: Mean squared error between the model’s predicted probability and the explanation output.
 - Displays comparative bar charts for time and fidelity per instance and on average.
 
-## 🛠️ Technologies Used
+## 🛠️ **Comparative Analysis of LIME and SHAP for Explaining Sentiment Classification Models on Text Data**
+
+This project presents a comparative study between two widely used model-agnostic explainability techniques: **LIME (Local Interpretable Model-agnostic Explanations)** and **SHAP (SHapley Additive exPlanations)**. The evaluation is conducted using a sentiment classification model applied to simulated tweets labeled as positive or negative.
+
+## 📄 **Main Script**
+
+- `main01.py`: Complete Python script that performs data simulation, model training with XGBoost, local explanation using LIME and SHAP, fidelity and execution time measurement, and graphical visualization of results.
+
+## 🧪 **Features**
+
+- Simulates 100 tweets with binary sentiment labels (positive and negative).
+- Trains a classifier using the XGBoost algorithm.
+- Applies LIME and SHAP to explain model predictions.
+- Calculates and compares two key metrics:
+  - **Execution Time (seconds)**: Time required to generate a single explanation.
+  - **Local Fidelity (MSE)**: Mean squared error between the model’s predicted probability and the explanation output.
+- Displays comparative bar charts for time and fidelity per instance and on average.
+
+## 🛠️ **Technologies Used**
 
 - Python 3
 - [scikit-learn](https://scikit-learn.org/)
@@ -29,6 +45,21 @@ This project presents a comparative study between two widely used model-agnostic
 - numpy
 
 ## 📦 Installation
+
+It is recommended to use a virtual environment. Install dependencies with:
+
+```bash
+pip install numpy matplotlib scikit-learn xgboost shap lime
+
+- Python 3
+- [scikit-learn](https://scikit-learn.org/)
+- [XGBoost](https://xgboost.readthedocs.io/)
+- [LIME](https://github.com/marcotcr/lime)
+- [SHAP](https://github.com/shap/shap)
+- matplotlib
+- numpy
+
+## 📦** Installation**
 
 It is recommended to use a virtual environment. Install dependencies with:
 
